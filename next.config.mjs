@@ -8,7 +8,7 @@ const nextConfig = {
       { hostname: "lh3.googleusercontent.com" },
       { hostname: "mern-smart-srote.onrender.com" },
       { hostname: "localhost" },
-      { hostname: "localhost" },
+ 
     ],
   },
   experimental: {

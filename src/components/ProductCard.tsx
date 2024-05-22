@@ -29,7 +29,7 @@ export default function ProductCard({ product }: ProductCardProps) {
       <div className="card-body">
         <h2 className="card-title">{product.name}</h2>
         {isNew && <div className="badge badge-secondary">NEW</div>}
-        <p>{product.description}</p>
+        <p>{product.description.slice(0, 100)}</p>
         <PriceTag price={product.price} />
       </div>
     </Link>
